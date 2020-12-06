@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Homepage</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin:0px;
+            }
+            .topnav{
+                display:flex;
+                list-style-type: none;
+                padding: 0%;
+                float:right;
+                margin-right: 16px;
+                margin-top: 18px;
+            }
+            .links{
+                position: fixed;
+                bottom:0px;
+                width: 100%;
+                background-color:rgb(241, 235, 235);
+                border-style: solid;
+                border-color: rgb(226, 222, 222);
+                border-width: 1px;
+                margin-bottom: 0px;
+            }
+            .links a{
+                float:left;
+                display:block;
+                color: rgba(0,0,0,.54);
+                font-size: 14px;
+                padding:12px;
+                text-decoration: none;
+            }
+            li a{
+                color:rgba(0,0,0,0.87);
+                text-decoration:none;
+                padding: 9px;
+                font-size:13px;
+                margin-right: 9px;
+
+            }
+            .item1{
+                margin-top: 20px;
+            }
+            .item1 a{
+                margin-left: 7px;
+                text-decoration: none;
+            }
+            .spclbutton a{
+                background-color: #4387fd;
+                font-weight: bold;
+                border-radius: 2px 2px 2px 2px;
+            }
+            .first{
+                width:100%;
+                display:flex;
+                align-items: center;
+                flex-direction: column;
+            }
+            .search{
+                width:500px;
+                height:40px;
+            }
+            .twobutts{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .here input[type="submit"]{
+                margin-left: 17px;
+                margin-top: 5px;
+                border-radius: 3px 3px 3px 3px;
+                border-color:#f8f9fa;
+                background-color: #f8f9fa;
+                border-style: solid;
+                height:40px;
+                padding: 10px;
+                font-size: 14px;
+                color: #3c4043;
+            }
+            input[type="submit"]:hover{
+                cursor: pointer;
+                border: 1px solid #dadce0;
+                box-shadow:  0 1px 1px rgba(0,0,0,0.1);
+                background-color: #f8f9fa;
+            }
+            .text{
+                margin-left:25px;
+            }
+            .india{
+                position: fixed;
+                bottom:41px;
+                width: 100%;
+                background-color:rgb(241, 235, 235);
+                border-style: solid;
+                border-color: rgb(226, 222, 222);
+                border-width: 1px;
+                color: rgba(0,0,0,.54);
+                font-size: 14px;
+                padding:12px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="topnav">
+            <li><a href="">Gmail</a></li>
+            <li><a href ="">Images</a></li>
+            <li><a href=""><img src="grid.png" alt="App Grid" height="15"></a></li>
+            <li class="spclbutton"><a href ="" style="color: white;">Sign In</a></li>
+        </ul>
+        <div class="first">
+            <div class="item1">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" style="margin-top: 90px;">
+        
+            </div>
+            <div class="item1">
+                    <input class="search" type="text" name="Search" style="border-radius: 20px 20px 20px 20px; border-color: lightgray; border-width: 0.5px; border-style: solid;">
+
+                </div>
+            <div class="item1 twobutts">
+                    <div class="here"><input type="submit" value="Google Search"></div>
+                    <div class="here"><input type="submit" value="I'm feeling lucky"></div>
+            </div>
+            <div class="item1" style="font-size: 13px; color:rgba(0,0,0,0.87);">
+                Google offered in: <a href="" style="color: blue;">हिन्दी</a>   <a href="" style="color: blue;">বাংলা</a>   <a href="" style="color: blue;">తెలుగు</a> <a href="" style="color: blue;">मराठी</a> <a href="" style="color: blue;">தமிழ்</a> <a href="" style="color: blue;">ગુજરાતી</a> <a href="" style="color: blue;">ಕನ್ನಡ</a> <a href="" style="color: blue;">മലയാളം</a>   <a href="" style="color: blue;">ਪੰਜਾਬੀ</a>
+            </div>
+        </div>
+        <div class="india" >
+            <div class="text">India</div>
+        </div>
+        <div class="links">
+                <a href=""><div class="text">Advertising</div></a>
+                <a href="">Business</a>
+                <a href="">About</a>
+                <a href="">How Search Works</a>
+                <div class="Right" style="margin-left: 1125px;">
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="">Settings</a>
+                </div>
+            </div>
+     </body>
+</html>
